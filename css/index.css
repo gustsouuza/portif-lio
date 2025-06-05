@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #ffffff;
+    background-color: #000000;
     border-bottom: 1px solid #4b4b4b;
     padding: 14px 20px;
 
@@ -10,7 +10,7 @@ header {
 
 
 nav {
-    background-color: #ffffff;
+    background-color: #000000;
     text-align: center;
 }
 
@@ -20,7 +20,7 @@ a {
     align-items: center;
     color: #000000;
     font-size: 17px;
-    font-family: "Arial";
+    font-family: "Inter";
     font-weight: 500;
     text-decoration: none;
     margin-right: 30px;
@@ -29,19 +29,11 @@ a {
 }
 
 
-a:before {
-    content: "";
-    background-color: #0a3255;
-    width: 8px;
-    height: 8px;
-    margin-right: 10px;
-}
-
 
 #button {
     display: inline-block;
     background-color: #3c3e3f;
-    color: #fff;
+    color: #ffffff;
     padding: 18px 20px;
     margin-right: 10;
     border-radius: 15px;
