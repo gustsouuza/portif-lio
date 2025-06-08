@@ -23,6 +23,44 @@
         </nav>
     </header>
     <h1>Gustavo Henrique</h1>
+    <section id="alternancia">
+  <div class="toggle-container-custom">
+    <button class="toggle-button-custom active" onclick="showContent('tecnologias', this)">Tecnologias</button>
+    <button class="toggle-button-custom" onclick="showContent('skills', this)">Skills</button>
+  </div>
+
+  <div class="content-grid-custom" id="content-custom">
+    <!-- Conteúdo aparece aqui via JS -->
+  </div>
+</section>
+<script>
+  const contentData = {
+    tecnologias: ['{} Node', 'Java', 'React'],
+    skills: ['Comunicação', 'Inglês', 'CI/CD']
+  };
+
+  function showContent(type, btn) {
+    // Alternar botão ativo
+    const buttons = document.querySelectorAll('.toggle-button-custom');
+    buttons.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    // Atualizar conteúdo
+    const contentDiv = document.getElementById('content-custom');
+    contentDiv.innerHTML = '';
+    contentData[type].forEach(text => {
+      const box = document.createElement('div');
+      box.className = 'box-custom';
+      box.textContent = text;
+      contentDiv.appendChild(box);
+    });
+  }
+
+  // Mostrar conteúdo inicial
+  document.addEventListener('DOMContentLoaded', () => {
+    showContent('tecnologias', document.querySelector('.toggle-button-custom.active'));
+  });
+</script>
 </body>
 </html>
 

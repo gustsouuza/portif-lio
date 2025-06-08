@@ -2,7 +2,6 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #000000;
-    border-bottom: 1px solid #4b4b4b;
     padding: 14px 20px;
 
 }
@@ -49,10 +48,53 @@ a {
 }
 
 body {
-    background-color: #fff
+    background-color: #000000
     
 }
 
-h1 {
-    
+
+
+#alternancia {
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Inter";
+}
+
+.toggle-container-custom {
+  display: inline-flex;
+  background-color: #1f1f1f;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.toggle-button-custom {
+  padding: 08px 65px;
+  background: none;
+  border: none;
+  font-family: Inter;
+  color: #616161;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.5s, color 0.3s;
+}
+
+.toggle-button-custom.active {
+  background-color: #313131;
+  color: #fff;
+}
+
+.content-grid-custom {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(147px, 1fr));
+  gap: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.box-custom {
+  border: 1px solid #474747;
+  border-radius: 10px;
+  padding: 12px;
+  color: white;
 }
