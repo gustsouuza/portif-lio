@@ -3,6 +3,7 @@ header {
     justify-content: space-between;
     background-color: #000000;
     padding: 14px 20px;
+    backdrop-filter: blur(10px);
 
 }
 
@@ -27,24 +28,18 @@ a {
    
 }
 
-h1 {
-    color: #fff;
-    font-family: Inter;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
 
-}
+
+
 
 
 #button {
     display: inline-block;
-    padding: 16px 24px;
+    padding: 14px 22px;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border-radius: 08px;
+    border-radius: 10px;
     border: 1px solid #797979;
     transition: transform 100ms linear, opacity 200ms ease-in-out;
 
@@ -63,8 +58,16 @@ body {
 
 
 
+
+
+
+
+
+
+
+
 #alternancia {
-  margin-top: 40px;
+  margin-top: 50px;
   text-align: center;
   font-family: "Inter";
 }
@@ -72,7 +75,7 @@ body {
 .toggle-container-custom {
   display: inline-flex;
   background-color: #1f1f1f;
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
   margin-bottom: 20px;
 }
@@ -82,15 +85,16 @@ body {
   background: none;
   border: none;
   font-family: Inter;
-  color: #616161;
+  color:#616161;
   font-size: 16px;
   cursor: pointer;
   transition: background 0.5s, color 0.3s;
+  
 
 }
 
 .toggle-button-custom.active {
-  background-color: #333333;
+  background-color: #484848;
   color: #fff;
 }
 
