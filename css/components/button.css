@@ -1,0 +1,17 @@
+#button {
+    display: inline-block;
+    padding: 14px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #797979;
+    transition: transform 100ms linear, opacity 200ms ease-in-out;
+
+}
+
+#button:hover {
+    transform: scale(1.02);
+    opacity: 0.9;
+
+}

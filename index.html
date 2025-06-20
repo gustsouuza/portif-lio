@@ -10,16 +10,18 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/components/button.css">
     <link rel="stylesheet" href="css/components/title.css">
     <link rel="stylesheet" href="css/components/subtitle.css">
+    <link rel="stylesheet" href="css/components/box.css">
 </head>
 <body>
     <header>
         <img src="assets/img/logo_sitepessoal.png" alt="Logo Gustavo Henrique" width="150">
         <nav>
-           <a href="" lang="en">Projetos</a>
+           <a href="">Projetos</a>
            <a href="">Sobre</a>
-           <a href="">Skills</a>
+           <a href="" lang="en">Skills</a>
            <a href="">Tecnologias</a>
            <a href="">Contato</a>
            <a id="button" href="" lang="en">Download CV</a>
@@ -27,6 +29,9 @@
     </header>
     <h1>Gustavo Henrique</h1>
     <h2>Olá, sou Desenvolvedor Full Stack</h2>
+    <h3 class="fill">PROJETOS</h3>
+
+    <div id="box"></div>
     <section id="alternancia">
   <div class="toggle-container-custom">
     <button class="toggle-button-custom active" onclick="showContent('tecnologias', this)">Tecnologias</button>

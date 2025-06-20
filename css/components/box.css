@@ -1,0 +1,12 @@
+#box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+    width: 1213px;
+    height: 448px;
+    border-radius: 20px;
+    border: 1px solid #535353;
+
+    
+}
