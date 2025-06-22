@@ -1,31 +1,9 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #000000;
-    padding: 14px 20px;
-    backdrop-filter: blur(10px);
-
-}
 
 
 
 nav {
     background-color: #000000;
     text-align: center;
-}
-
-
-a {
-    display: inline-flex;
-    align-items: center;
-    color: #ffffff;
-    font-size: 16px;
-    font-family: "Inter";
-    font-weight: 400;
-    text-decoration: none;
-    margin-right: 60px;
-    margin-top: 7px;
-   
 }
 
 
@@ -47,7 +25,6 @@ h3 {
   font-style: normal;
   font-weight: 1500;
   line-height: normal;
-
   opacity: 0.71;
   background: linear-gradient(91deg, #131313 0.13%, #B2B2B2 100.28%);
   background-clip: text;
