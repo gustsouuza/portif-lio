@@ -10,12 +10,14 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/components/header.css">
+    <link rel="stylesheet" href="css/components/banner.css">
     <link rel="stylesheet" href="css/components/button.css">
     <link rel="stylesheet" href="css/components/title.css">
     <link rel="stylesheet" href="css/components/subtitle.css">
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/action.css">
-    <link rel="stylesheet" href="css/components/header.css">
+    
 </head>
 <body>
     <header class="header">
@@ -29,12 +31,24 @@
            <a class="button" href="" lang="en">Download CV</a>
         </nav>
     </header>
-    <h1>Gustavo Henrique</h1>
-    <h2>Olá, sou Desenvolvedor Full Stack</h2>
-    <h3 class="fill">PROJETOS</h3>
-
-    <div id="box"></div>
+    <section class="banner">
+      <div class="container">
+        <div class="text">
+      <h1>Gustavo Henrique</h1>
+      <p>Olá, sou Desenvolvedor Full Stack</p>
+        </div>
+      <div class="image">
+        <img src="assets/img/foto_banner.png">
+      </div>
+      </div>
+    </section>
     
+   <h2 class="fill">PROJETOS</h2>
+    <section id="box">
+      <h3>About Me</h3>
+    
+    </section>
+
     <section id="alternancia">
   <div class="toggle-container-custom">
     <button class="toggle-button-custom active" onclick="showContent('tecnologias', this)">Tecnologias</button>

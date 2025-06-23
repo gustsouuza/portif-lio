@@ -14,11 +14,12 @@ nav {
 
 
 body {
-    background-color: #000000
+    background-color: #000000;
+    
     
 }
 
-h3 {
+h2 {
 
   font-family: "Inter";
   font-size: 210px;
@@ -30,10 +31,25 @@ h3 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-top: 300px;
+  position: relative;
+  left: 730px;
+
 }
 
 
-
+h3 {
+   
+    
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+    bottom: 180px;
+}
 
 
 
