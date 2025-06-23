@@ -23,11 +23,11 @@ h2 {
 
   font-family: "Inter";
   font-size: 210px;
-  font-style: normal;
+  font-style: Bold;
   font-weight: 1500;
   line-height: normal;
   opacity: 0.71;
-  background: linear-gradient(91deg, #131313 0.13%, #B2B2B2 100.28%);
+  background: linear-gradient(91deg, #1f1f1f 0.13%, #d1d1d1 100.28%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -37,25 +37,10 @@ h2 {
 
 }
 
-p {
-  font-family: "Inter";
-  color: #fff;
-  font-style: normal;
-  font-size: 40px;
-}
 
-h3 {
-   
-    
-    color: #FFF;
-    font-family: Inter;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    position: relative;
-    bottom: 180px;
-}
+
+
+
 
 
 
