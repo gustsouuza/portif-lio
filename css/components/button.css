@@ -1,4 +1,4 @@
-.button {
+#button {
     display: inline-block;
     padding: 14px 22px;
     justify-content: center;
@@ -10,7 +10,7 @@
 
 }
 
-.button:hover {
+#button:hover {
     transform: scale(1.02);
     opacity: 0.9;
 

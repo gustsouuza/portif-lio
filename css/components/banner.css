@@ -8,7 +8,7 @@
     position: relative;
     left: 90px;
     top: 150px;
-    ;
+    
 }
 
 .container {
@@ -32,4 +32,11 @@
 .text p {
   font-size: 1.2em;
   color: #ccc;
+}
+
+.banner {
+
+ background-image: url(../../assets/img/efeito_lateral.png);
+ filter: blur(0px);
+ 
 }
