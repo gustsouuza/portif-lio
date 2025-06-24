@@ -1,10 +1,7 @@
 
 
 
-nav {
-    background-color: #000000;
-    text-align: center;
-}
+
 
 
 
@@ -31,7 +28,7 @@ h2 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-top: 300px;
+  margin-top: 230px;
   position: relative;
   left: 730px;
 

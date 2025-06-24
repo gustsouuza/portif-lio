@@ -30,8 +30,9 @@
 }
 
 .text p {
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #ccc;
+  margin-top: 0;
 }
 
 .banner {
