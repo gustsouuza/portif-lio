@@ -1,5 +1,5 @@
-#box {
-    display: flex;
+.box {
+    display: block;
     align-items: center;
     justify-content: center;
     background-color: #161616;
@@ -9,7 +9,6 @@
     border: 1px solid #535353;
     margin: 0 auto;
     margin-top: 400px;
-    
     
 }
 
@@ -22,8 +21,6 @@ h3 {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    position: relative;
-    bottom: 180px;
 }
 
 h4 {
