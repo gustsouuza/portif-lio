@@ -20,7 +20,8 @@
     <link rel="stylesheet" href="css/components/container.css">
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/action.css">
-    <link rel="stylesheet" href="css/components/alternacia.css">
+    <link rel="stylesheet" href="css/components/Skills.css">
+    <link rel="stylesheet" href="css/components/email.css">
     
     
 </head>
@@ -67,18 +68,24 @@
 
     <div class ="box">
       <h3>About Me</h3>
-      <h4>Sou estudante e desenvolvedor júnior apaixonado por tecnologia e resolução de problemas. Tenho conhecimentos em 
+      <p>Sou estudante e desenvolvedor júnior apaixonado por tecnologia e resolução de problemas. Tenho conhecimentos em 
         HTML, CSS, JavaScript, Git e lógica de programação, e estou me aprofundando em React, Node.js e bancos de dados
-         como MySQL e MongoDB.
-         👨‍💻 Já participei de projetos acadêmicos e pessoais onde pude aplicar boas práticas de desenvolvimento, versionamento de 
+         como MySQL e MongoDB.</p>
+         <p>
+         <span class="emoji-icon"></span>👨‍💻 Já participei de projetos acadêmicos e pessoais onde pude aplicar boas práticas de desenvolvimento, versionamento de 
          código e trabalho em equipe. Tenho facilidade para aprender, me adaptar a novos desafios e colaborar com times usando 
          metodologias ágeis como Scrum e Kanban.
-         🚀 Busco uma oportunidade de estágio em desenvolvimento (front-end, back-end ou full stack) onde eu possa aplicar meus 
+         </p>
+         <p>
+         <span class="emoji-icon"></span>🚀 Busco uma oportunidade de estágio em desenvolvimento (front-end, back-end ou full stack) onde eu possa aplicar meus 
          conhecimentos, ganhar experiência prática e evoluir com o suporte de profissionais da área.
-         💬 Aberto a conexões, oportunidades.</h4>
+         </p>
+         <p>
+         <span class="emoji-icon"></span>💬 Aberto a conexões, oportunidades.
+         </p>
       </div>
 
-    <section id="alternancia">
+    <section id="Skills">
   <div class="toggle-container-custom">
     <button class="toggle-button-custom active" onclick="showContent('tecnologias', this)">Tecnologias</button>
     <button class="toggle-button-custom" onclick="showContent('skills', this)">Skills</button>
@@ -116,6 +123,22 @@
     showContent('tecnologias', document.querySelector('.toggle-button-custom.active'));
   });
 </script>
+
+
+    <section class="formulario">
+      <div class="interface">
+        <h4 class="title">Entre em Contato</h4>
+        <form action="">
+          <input type="text" name="" id="" placeholder="Nome:" required>
+          <input type="text" name="" id="" placeholder="Seu melhor e-mail:" required>
+          <input type="text" name="" id="" placeholder="Seu Celular:" required>
+          <textarea name="" id="" placeholder=" Sua Mensagem" required></textarea>
+          <div class="btn-enviar"><input type="submit" value="Enviar"></div>
+      
+        </form>
+      </div>
+    </section>
+    
+
 </body>
 </html>
-
