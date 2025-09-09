@@ -37,7 +37,8 @@
 
 .banner {
 
- background-image: url(../../assets/img/efeito_lateral.png);
+ background-image: url(../../assets/img/banner_port.png);
  filter: blur(0px);
+ height: 600px;
  
 }
